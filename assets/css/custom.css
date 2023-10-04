@@ -1,0 +1,12 @@
+.product-box {
+  box-shadow: 0px -1px 10px #ccc;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+}
+.product-box img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 150px;
+}
