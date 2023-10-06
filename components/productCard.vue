@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <h4>{{ product.title }}</h4>
-    <img :src="product.image" alt="" />
+    <!-- <img :src="product.image" alt="" /> -->
     <NuxtLink :to="`products/${product.id}`" class="btn btn-primary"
       >View Detail</NuxtLink
     >
