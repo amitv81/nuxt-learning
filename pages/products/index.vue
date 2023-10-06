@@ -17,6 +17,7 @@ const {
   pending,
   error,
 } = useAsyncData("products", () => $fetch("https://fakestoreapi.com/products"));
+//= useAsyncData("products", () => $fetch("http://localhost:3300/list-records"));
 
 // Adding custom meta - override the one we have in config
 useHead({
